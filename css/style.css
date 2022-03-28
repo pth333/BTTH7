@@ -1,0 +1,32 @@
+
+
+#txtUser {
+    margin-left: 18px;
+    
+}
+#txtName {
+    margin-left: 27px;
+}
+#txtAddress {
+    margin-left: 13px;
+}
+select {
+    margin-left: 13px;
+}
+#txtZip {
+    margin-left: 8px;
+}
+#txtEmail {
+    margin-left: 26px;
+}
+
+textarea {
+    height: 150px;
+    padding: 12px 0px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
