@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="">
+        User id: <input type="text" name="txtUser" id="txtUser">
+        <span id="userError"></span>
+        <br></br>
+        Pass word: <input type="text" name="txtPass" id="txtPass">
+        <span id="passError"></span>
+        <br></br>
+        Name: <input type="text" name="txtName" id="txtName">
+        <span id="nameError"></span>
+        <br></br>
+        Address: <input type="text" name="txtAddress" id="txtAddress">
+        <span id="addressError"></span>
+        <br></br>
+        Country: <select>
+            <option>(Please select a country)</option>
+            <option>VietNam</option>
+            <option>USA</option>
+            <option>Russia</option>
+            <option>China</option>
+            <option>ThaiLand</option>
+        </select>
+        <br></br>
+        Zip code: <input type="text" name="txtZip" id="txtZip">
+        <span id="zipError"></span>
+        <br></br>
+        Email: <input type="text" name="txtEmail" id="txtEmail">
+        <span id="emailError"></span>
+        <br></br>
+        <label for="fname">Sex:</label>
+        <input type="radio" name="Sex" id="Sex">
+        <span >Male</span>
+        <input type="radio" name="Sex" id="Sex">
+        <span >Female</span>
+        <br></br>
+        <label for="fname">Language:</label>
+        <input type="radio" name="Language" id="Language">
+        <span >English</span>
+        <input type="radio" name="Language" id="Language">
+        <span >Non English</span>
+        <br></br>
+        About: <textarea class="message">Optional</textarea>
+        <br></br>
+        <button type="submit" id="btnCheck">Submit</button>
+    </form>
+    <script src="js/main.js"></script>
+</body>
+</html>
